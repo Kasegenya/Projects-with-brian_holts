@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Message me</title>
+</head>
+<body>
+    <h1>Message Me</h1>
+    <a href="myblog.html">Back to Blog</a>
+    <form class="msg-form">
+        <label class="name">Name:</label>
+        <input type="text" name="name" id="name" required>
+        <label class="email">Email:</label>
+        <input type="email" name="email" id="email" required>
+        <label class="message">Message:</label>
+        <textarea name="message" id="message" required></textarea>
+        <label class="fav-color">What is your favourite color<input type="color"></label>
+        <label class="music">What is your favourite music
+            <input type="radio" name="music" value="pop">pop
+            <input type="radio" name="music" value="rock">rock
+            <input type="radio" name="music" value="jazz">jazz
+        </label>
+        <label class="food">What is your favourite place
+            <input type="checkbox" name="place" value="beach">beach
+            <input type="checkbox" name="place" value="mountain">mountain
+            <input type="checkbox" name="place" value="forest">forest
+                </label>
+         <label class="date">What is the date and time
+            <input type="datetime-local" name="date-time">
+         </label>       
+        <button type="submit">Send</button>
+    </form>
+    
+</body>
+</html>

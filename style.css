@@ -1,0 +1,153 @@
+.post-title {
+    color:rgb(35, 20, 101);
+    font-weight: 900;
+}
+
+.author {
+    color: rgb(35, 20, 101);
+    font-weight: 600;
+}
+
+
+* {
+    box-sizing: border-box;
+}
+  
+.post-content
+{
+    background-color: #3d52a0;
+    color: #2b3047;
+    display: flex;
+    padding-right: 2%;
+    justify-content: flex-start;
+    align-items: center;
+    
+}
+
+article {
+    
+    padding: 20px;
+    background-color: #7091e6;
+    color: #2b3047;
+}
+
+h2 {
+    color: #2b3047;
+    font-weight: 900;
+}
+
+h1,p {
+    color: #2b3047;
+    font-weight: 700;
+}
+
+.nav-bar ul {
+    list-style: none;
+   padding-bottom: 5px;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items:end;
+    background-color:#7091e6;
+    height:60px;
+    border-radius: 40px;
+
+
+
+}
+
+body {
+    background-color: #8698c4;
+    color: #2b3047;
+    margin: 10px;
+    /* background-image: url("back-img.jpeg"); */
+}
+p.details {
+    background-color: #8698c4;
+    color: #2b3047;
+    font-weight: 600;
+    border-radius: 6px  ;
+    padding: 3px;
+    margin:0px
+}
+.news-times{
+    background-color: azure;
+}
+
+
+.testing-body{
+    background-color: beige;
+}
+
+h1, .news-head{
+    text-align: center;
+
+}
+
+.paper-tittles, ul{
+    list-style: none;
+    padding-bottom: 5px;
+     margin: 0;
+     display: grid; 
+    padding: 10px;
+    border: 2px solid black;
+    border-bottom: 0.5px hidden black;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+     
+}
+.paper-tittle{
+    text-decoration: none;
+    margin-left:10px;
+}
+
+.section-link{
+    padding-left: 10px;
+    text-decoration: none;
+    
+}
+.section-link:hover{
+    text-decoration: underline;
+    
+    
+}
+
+.el-1{
+    grid-area: new-sec1;
+    padding: 5px;
+    border: 1px solid black;
+}
+
+.el-2{
+    grid-area: new-sec2;
+    padding: 5px;
+    text-align: center;
+    border: 1px solid black;
+    
+}
+
+.el-3{
+    grid-area: new-sec3;
+    padding: 5px;
+    border: 0.5px solid black;
+}
+
+.el-4{
+    grid-area: new-sec4;
+    padding: 5px;
+    border: 0.2px solid black;
+   
+}
+
+.el-5{
+    grid-area: new-sec5;
+    padding: 5px;
+    border: 1px solid black;
+}
+
+.paper-body{
+    display: grid;
+    grid-template-areas: "new-sec1 new-sec2 new-sec3"
+                         "new-sec4 new-sec5 new-sec5";
+    border: 1px solid black;                     
+}
+
