@@ -17,9 +17,8 @@
     </div>
     <div class="coffee-masters-body">
     <div class="items">
-        <h5>ITEMS</h5>
+        <h5 class="items-heading">ITEMS</h5>
         <div class="item">
-
             <h2 class="item-desc">
                 <div class="one-item">1x</div>
                 <div class="item-name">Cappuccino</div>
@@ -47,28 +46,30 @@
        
     </div>
     <div class="item-order">
-        <h5>NAME</h5>
+        <h5 class="items-heading">NAME</h5>
         <div class="input-class">
         <label for="name" class="input-label">Name for order</label>
         <input id="order-name" class="order-input" type="text" placeholder="Ford Prefect"/>
         </div>
-        </div>
+    </div>
         <div class="item-payment">
+            <h5 class="items-heading">PAYMENT</h5>
+         <div class="input-class">   
             <label for="card-no" class="input-label">Card Number</label>
             <input id="card-number" class="order-input" type="text" placeholder="1234567890123456">
-            <label for="ccv-no" class="input-label">Card Number</label>
+            </div>
+            <div class="input-class">
+            <label for="ccv-no" class="input-label">CCV Number</label>
             <input id="ccv-number"  class="order-input" type="text" placeholder="001">
             </div>
-
+    </div>
 <footer>
     <div class="order-sum-up">
-        <p class="sub-total">Subtotal:   <span class="sub-price">$9.65</span></p>
-        <p class="sub-total">Tax:   <span class="sub-price">$0.82</span></p>
-        <p class="sub-total">Total:   <span class="sub-price">$10.47</span></p>
+      <div class="sumup-item"><p class="sub-total">Subtotal:</p><span class="sub-price">$9.65</span></div>
+      <div class="sumup-item"><p class="sub-total">Tax:  </p><span class="sub-price">$0.82</span></div>
+      <div class="sumup-item"><p class="sub-total">Total: </p><span class="sub-price">$10.47</span></div>
     </div>
-    
     <button class="order-button">Place order</button>
 </footer>
-</div>
 </body>
 </html>
