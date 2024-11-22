@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+  href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap"
+  rel="stylesheet"
+/>
+<link rel="stylesheet" href="coffee_app.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="coffee-header">
+        <img class="coffee-cup" src="coffee_masters_logo.png" alt="Coffee">
+        <p class="coffee-title">Coffee Masters</p>
+    </div>
+    <div class="coffee-masters-body">
+    <div class="items">
+        <h5>ITEMS</h5>
+        <div class="item">
+
+            <h2 class="item-desc">
+                <div class="one-item">1x</div>
+                <div class="item-name">Cappuccino</div>
+                <div class="price">$3.35</div>
+            </h2>    
+                <p class="drink-style">Lite Foam</p>
+        </div>
+        <div class="item">
+        <h2 class="item-desc">
+            <div class="one-item">1x</div>
+            <div class="item-name">Cappuccino</div>
+            <div class="price">$3.85</div>
+        </h2>   
+            <p class="drink-style">Lite milk</p>
+            <p class="drink-style">Double espresso</p>
+        </div>
+        <div class="item">
+            <h2>
+                <div class="one-item">1x</div>
+                <div class="item-name">Croissant</div>
+                <div class="price">$2.45</div>
+            </h2>    
+                <p class="drink-style">Butter</p>
+        </div>
+       
+    </div>
+    <div class="item-order">
+        <h5>NAME</h5>
+        <div class="input-class">
+        <label for="name" class="input-label">Name for order</label>
+        <input id="order-name" class="order-input" type="text" placeholder="Ford Prefect"/>
+        </div>
+        </div>
+        <div class="item-payment">
+            <label for="card-no" class="input-label">Card Number</label>
+            <input id="card-number" class="order-input" type="text" placeholder="1234567890123456">
+            <label for="ccv-no" class="input-label">Card Number</label>
+            <input id="ccv-number"  class="order-input" type="text" placeholder="001">
+            </div>
+
+<footer>
+    <div class="order-sum-up">
+        <p class="sub-total">Subtotal:   <span class="sub-price">$9.65</span></p>
+        <p class="sub-total">Tax:   <span class="sub-price">$0.82</span></p>
+        <p class="sub-total">Total:   <span class="sub-price">$10.47</span></p>
+    </div>
+    
+    <button class="order-button">Place order</button>
+</footer>
+</div>
+</body>
+</html>

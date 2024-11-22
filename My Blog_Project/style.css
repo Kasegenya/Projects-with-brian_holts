@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 .post-title {
     color:rgb(35, 20, 101);
     font-weight: 900;
@@ -8,10 +12,6 @@
     font-weight: 600;
 }
 
-
-* {
-    box-sizing: border-box;
-}
   
 .post-content
 {

@@ -1,0 +1,127 @@
+* {
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: "Open Sans", sans-serif;
+    background-color: #eff0f0;
+    margin: 0px;
+    padding: 0px;
+  }
+
+  .coffee-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #412315;
+    color: #c8ba92;
+    padding: 5px 0;  
+  }
+
+  h2{
+    margin: 0px;
+    padding: 0px;
+  }
+
+  .coffee-cup, img{
+    width: 50px;
+    height: 50px;
+    margin-right: 2px;
+   
+  }
+
+  .coffee-title, p {
+    font-size: 20px;
+    font-weight: normal;
+    padding: 0px;
+    margin: 0px;
+    color: #c8ba92;
+  }
+
+ .drink-style, p{
+    font-size: 20px;
+    font-weight: normal;
+    padding: 0px;
+    margin: 0px;
+    color: #9e7753;
+ }
+
+  h2, .item-desc {
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 0px;
+    padding: 0px;
+  }
+
+  .items {
+    grid-area: items;
+    background-color: #eee1d5;
+    box-shadow: 0px 0px 5px 0px #c8ba92;
+    padding:8px;
+  }
+
+  .item-order{
+    grid-area: item-order;
+    background-color: #eee1d5;
+    box-shadow: 0px 0px 5px 0px #c8ba92;
+  }
+
+  .item-payment{
+    grid-area: item-payment;
+    background-color: #eee1d5;
+    box-shadow: 0px 0px 5px 0px #c8ba92;
+  }
+
+  .coffee-masters-body{
+    display: grid;
+    grid-template-areas: "items item-order"
+                         "items item-payment";           ;
+    padding: 10px 15px;
+    column-gap: 18px;
+    row-gap: 15px;
+  }
+
+  .order-button {
+    background-color: #deb993;
+    color: black;
+    padding: 10px 20px;
+    border-radius: 20px;
+    display: block;
+  }
+
+  footer{
+    padding: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+
+  .order-sum-up, div{
+    display: block; 
+  }
+
+  .sub-total,p{
+    color: black;
+    font-size: 14px;
+  }
+
+  .input-class {
+    position: relative;
+    display: inline-block;
+  }
+
+  .input-label{
+    font-size: 12px;
+    position: absolute;
+    left: 25px;
+    top: -6px;
+    color: #957b64;
+  }
+
+  .order-name{
+    border-color: #b69678;
+    background-color: #eee1d5;
+    border-radius: 5px;
+  }
