@@ -1,0 +1,159 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: white;
+    font-family: 'monospace', sans-serif;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 80px;
+    font-size: xx-large;
+    
+
+}
+
+.calc-button {
+    background-color: #d8d9db;
+    color: black;
+    border: solid 1px black;
+    font-size: 40px;
+
+}
+
+.calc-display {
+    background-color: #000000;
+    color: white;
+    grid-area: display;
+    padding: 10px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+
+.calc-button.clear-button {
+    grid-area: clear;
+    padding: 10px;
+    background-color: #d8d9db;
+}
+
+.calc-button.arrow-button {
+    grid-area: arrow;
+    padding: 10px;
+    background-color: #d8d9db;
+}
+
+.calc-button.divide-button {
+    grid-area: divide;
+    padding: 10px;
+    background-color: #df974c;
+}
+
+.calc-button.no-7 {
+    grid-area: seven;
+    padding: 10px;
+   
+}
+
+.calc-button.no-8 {
+    grid-area: eight;
+    padding: 10px;
+    background-color: #d8d9db;
+}
+
+.calc-button.no-9 {
+    grid-area: nine;
+    padding: 5px;
+    background-color: #d8d9db;
+}
+
+.calc-button.mult-button {
+    grid-area: multiply;
+    padding: 5px;
+    background-color: #df974c;
+}
+
+.calc-button.no-4 {
+    grid-area: four;
+    padding: 5px;
+    background-color: #d8d9db;
+}
+
+.calc-button.no-5 {
+    grid-area: five;
+    padding: 5px;
+    background-color: #d8d9db;
+}
+
+.calc-button.no-6 {
+    grid-area: six;
+    padding: 5px;
+    background-color: #d8d9db;
+}
+
+.calc-button.minus-button {
+    grid-area: subtract;
+    padding: 5px;
+    background-color: #df974c;
+}
+
+.calc-button.no-1 {
+    grid-area: one;
+    padding: 5px;
+    background-color: #d8d9db;
+}
+
+.calc-button.no-2 {
+    grid-area: two;
+    padding: 5px;
+    background-color: #d8d9db;
+}
+
+.calc-button.no-3 {
+    grid-area: three;
+    padding: 5px;
+    background-color: #d8d9db;
+}
+
+.calc-button.plus-button {
+    grid-area: add;
+    padding: 5px;
+    background-color: #df974c;
+}
+
+.calc-button.no-0 {
+    grid-area: zero;
+    padding: 5px;
+    background-color: #d8d9db;
+}
+
+.calc-button.equals-button {
+    grid-area: equals;
+    padding: 5px;
+    background-color: #df974c;
+}
+
+.calculator {
+    display: grid;
+    grid-template-areas:
+     "display display display display" 
+     "clear clear arrow divide" 
+     "seven eight nine multiply" 
+     "four five six subtract" 
+     "one two three add" 
+     "zero zero zero equals";
+     width: 50%;
+     height: 550px;
+    
+}
+
+.calc-button.sign:hover {
+    background-color: #dfb07e;
+} 
+
+.calc-button:hover {
+    background-color: #ebebeb;
+}

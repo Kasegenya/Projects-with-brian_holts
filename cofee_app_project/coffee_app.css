@@ -106,22 +106,25 @@
     padding: 10px 15px;
     column-gap: 18px;
     row-gap: 15px;
+   
+   
   }
 
-  footer{
+  footer {
       padding: 3px;
       display: flex;
       flex-direction: column;
       justify-content: center;
       align-items: center;
       margin-top: 150px;
-      width: 100%;
+      
   }
 
   .order-sum-up{
     margin-bottom: 3px;
-    display:block;
-    flex-wrap: 1;
+    /* display:block; */
+    
+    
     
   }
 
@@ -131,9 +134,10 @@
     padding: 10px 20px;
     border-radius: 20px;
     border: none;
-    width: 100%;
-    flex: 1;
-    display: block;
+    width: 50%;
+    /* flex: 1; */
+    /* display: block; */
+    
   }
 
   .input-class {
